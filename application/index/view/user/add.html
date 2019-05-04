@@ -1,0 +1,46 @@
+<layout name="layout"/>
+<ol class="breadcrumb">
+    <li><a href="{:url('/')}">首页</a></li>
+    <li><a href="{:url('user/index')}">读者管理</a></li>
+    <li class="active">添加读者</li>
+</ol>
+<div class="panel-default panel">
+    <div class="panel-body">
+        <form action="{:url('do_add')}" class="form-horizontal" method="post">
+            <div class="form-group">
+                <label for="realname" class="control-label col-md-1">姓名</label>
+                <div class="col-md-4">
+                    <input type="text" class="form-control" id="realname" name="realname" placeholder="读者姓名" maxlength="20" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-md-1">性别</label>
+                <div class="col-md-4">
+                    <label class="radio-inline">
+                        <input type="radio" name="sex" value="1" checked> 男
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="sex" value="2"> 女
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="phone" class="control-label col-md-1">手机</label>
+                <div class="col-md-4">
+                    <input type="text" class="form-control" name="phone" id="phone" required placeholder="读者手机" maxlength="11">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="remark" class="control-label col-md-1">备注</label>
+                <div class="col-md-4">
+                    <textarea name="remark" id="remark" class="form-control" rows="10"></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-4 col-lg-offset-1">
+                    <button type="submit" class="btn btn-primary">保存</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

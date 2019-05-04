@@ -1,0 +1,50 @@
+<layout name="layout"/>
+<ol class="breadcrumb">
+    <li><a href="{:url('/')}">首页</a></li>
+    <li class="active">读者管理</li>
+</ol>
+<div class="clearfix">
+    <form action="" class="form-inline pull-left" method="get">
+        <input type="search" class="form-control" placeholder="姓名或手机" id="keyword" name="keyword" value="{$Think.get.keyword}">
+        <button class="btn btn-default" type="submit">筛选</button>
+    </form>
+    <a href="{:url('user/add')}" class="btn btn-primary pull-right">添加读者</a>
+</div>
+<hr>
+<empty name="list">
+    <p>暂时没有读者</p>
+    <else/>
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+            <tr>
+                <td>ID</td>
+                <td>姓名</td>
+                <td>性别</td>
+                <td>手机</td>
+                <td>添加时间</td>
+                <td>备注</td>
+                <td>操作</td>
+            </tr>
+            <volist name="list" id="item">
+                <tr>
+                    <td>{$item.user_id}</td>
+                    <td>{$item.realname}</td>
+                    <td>
+                        <eq name="item.sex" value="1">
+                            男
+                            <else/>
+                            女
+                        </eq>
+                    </td>
+                    <td>{$item.phone}</td>
+                    <td>{$item.created_at}</td>
+                    <td>{$item.remark}</td>
+                    <td>
+                        <a href="{:url('user/update',['id'=>$item['user_id']])}">编辑</a>
+                    </td>
+                </tr>
+            </volist>
+        </table>
+    </div>
+    {$list->render()}
+</empty>

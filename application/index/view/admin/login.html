@@ -1,0 +1,25 @@
+<layout name="simple" />
+<div class="panel panel-default">
+    <div class="panel-heading">登录</div>
+    <div class="panel-body">
+        <form action="{:url('do_login')}" class="form-horizontal" method="post">
+            <div class="form-group">
+                <label for="username" class="col-md-2 col-lg-offset-2 control-label">账号</label>
+                <div class="col-md-4">
+                    <input type="text" id="username" name="username" class="form-control" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="password" class="col-md-2 col-lg-offset-2 control-label">密码</label>
+                <div class="col-md-4">
+                    <input type="password" id="password" name="password" class="form-control" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-2 col-lg-offset-4">
+                    <button type="submit" class="btn btn-primary">登录</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,3487 @@
+---------------------------------------------------------------
+[ 2019-04-21T13:44:28+08:00 ] 0.0.0.0 GET localhost:8080/
+[运行时间：0.016975s] [吞吐率：58.91req/s] [内存消耗：562.00kb] [文件加载：59]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/index/book/add',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001927s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.001335s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1 [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` LIMIT 0,10 [ RunTime:0.000554s ]
+---------------------------------------------------------------
+[ 2019-04-21T13:44:31+08:00 ] 0.0.0.0 GET localhost:8080/
+[运行时间：0.006288s] [吞吐率：159.04req/s] [内存消耗：551.59kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/index/book/add',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000544s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.001218s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1 [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` LIMIT 0,10 [ RunTime:0.000310s ]
+---------------------------------------------------------------
+[ 2019-04-21T13:44:33+08:00 ] 0.0.0.0 GET localhost:8080/
+[运行时间：0.015511s] [吞吐率：64.47req/s] [内存消耗：550.01kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003008s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.007568s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1 [ RunTime:0.001034s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` LIMIT 0,10 [ RunTime:0.001135s ]
+---------------------------------------------------------------
+[ 2019-04-21T13:44:34+08:00 ] 0.0.0.0 GET localhost:8080/
+[运行时间：0.007829s] [吞吐率：127.73req/s] [内存消耗：550.21kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001003s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.001279s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1 [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` LIMIT 0,10 [ RunTime:0.000547s ]
+---------------------------------------------------------------
+[ 2019-04-21T13:45:13+08:00 ] 0.0.0.0 GET localhost:8080/
+[运行时间：0.011304s] [吞吐率：88.47req/s] [内存消耗：564.90kb] [文件加载：59]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/index/book/add',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002448s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.000992s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` LIMIT 0,10 [ RunTime:0.000593s ]
+---------------------------------------------------------------
+[ 2019-04-21T13:45:37+08:00 ] 0.0.0.0 GET localhost:8080/
+[运行时间：0.006176s] [吞吐率：161.92req/s] [内存消耗：551.49kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000452s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.000840s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1 [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` LIMIT 0,10 [ RunTime:0.000441s ]
+---------------------------------------------------------------
+[ 2019-04-21T13:45:39+08:00 ] 0.0.0.0 GET localhost:8080/?status=
+[运行时间：0.005028s] [吞吐率：198.89req/s] [内存消耗：553.63kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'status' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000494s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.000885s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` WHERE  `status` = 0 LIMIT 0,10 [ RunTime:0.000559s ]
+---------------------------------------------------------------
+[ 2019-04-21T13:45:42+08:00 ] 0.0.0.0 GET localhost:8080/?status=0
+[运行时间：0.013934s] [吞吐率：71.77req/s] [内存消耗：553.66kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'status' => '0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000741s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.001024s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.008806s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` WHERE  `status` = 0 LIMIT 0,10 [ RunTime:0.000408s ]
+---------------------------------------------------------------
+[ 2019-04-21T13:46:03+08:00 ] 0.0.0.0 GET localhost:8080/?status=0
+[运行时间：0.015900s] [吞吐率：62.89req/s] [内存消耗：568.21kb] [文件加载：59]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'status' => '0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004981s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.002530s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` WHERE  `status` = 0 LIMIT 0,10 [ RunTime:0.000361s ]
+---------------------------------------------------------------
+[ 2019-04-21T13:46:36+08:00 ] 0.0.0.0 GET localhost:8080/?status=0
+[运行时间：0.006173s] [吞吐率：161.99req/s] [内存消耗：557.66kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'status' => '0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000392s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.000726s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` WHERE  `status` = 0 LIMIT 0,10 [ RunTime:0.000518s ]
+---------------------------------------------------------------
+[ 2019-04-21T13:46:43+08:00 ] 0.0.0.0 GET localhost:8080/?status=1
+[运行时间：0.005509s] [吞吐率：181.52req/s] [内存消耗：552.17kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=0',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'status' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000443s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.000970s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` WHERE  `status` = 1 LIMIT 0,10 [ RunTime:0.000615s ]
+---------------------------------------------------------------
+[ 2019-04-21T13:47:50+08:00 ] 0.0.0.0 GET localhost:8080/?status=1
+[运行时间：0.007227s] [吞吐率：138.37req/s] [内存消耗：565.19kb] [文件加载：59]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=0',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'status' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000482s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.000937s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` WHERE  `status` = 1 LIMIT 0,10 [ RunTime:0.000642s ]
+---------------------------------------------------------------
+[ 2019-04-21T13:47:53+08:00 ] 0.0.0.0 GET localhost:8080/?status=0
+[运行时间：0.007243s] [吞吐率：138.06req/s] [内存消耗：554.82kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'status' => '0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000479s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.000846s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` WHERE  `status` = 0 LIMIT 0,10 [ RunTime:0.000865s ]
+---------------------------------------------------------------
+[ 2019-04-21T13:47:55+08:00 ] 0.0.0.0 GET localhost:8080/?status=
+[运行时间：0.007870s] [吞吐率：127.07req/s] [内存消耗：551.04kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=0',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'status' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001937s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.001200s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1 [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` LIMIT 0,10 [ RunTime:0.000526s ]
+---------------------------------------------------------------
+[ 2019-04-21T13:47:56+08:00 ] 0.0.0.0 GET localhost:8080/?status=
+[运行时间：0.005811s] [吞吐率：172.08req/s] [内存消耗：551.12kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=0',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'status' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000649s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.000932s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1 [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` LIMIT 0,10 [ RunTime:0.000341s ]
+---------------------------------------------------------------
+[ 2019-04-21T13:47:58+08:00 ] 0.0.0.0 GET localhost:8080/?status=0
+[运行时间：0.006013s] [吞吐率：166.31req/s] [内存消耗：553.66kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'status' => '0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000469s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.001211s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.000605s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` WHERE  `status` = 0 LIMIT 0,10 [ RunTime:0.000760s ]
+---------------------------------------------------------------
+[ 2019-04-21T13:47:58+08:00 ] 0.0.0.0 GET localhost:8080/?status=0
+[运行时间：0.006583s] [吞吐率：151.91req/s] [内存消耗：553.74kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'status' => '0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000828s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.001114s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.000444s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` WHERE  `status` = 0 LIMIT 0,10 [ RunTime:0.000608s ]
+---------------------------------------------------------------
+[ 2019-04-21T13:47:59+08:00 ] 0.0.0.0 GET localhost:8080/?status=0
+[运行时间：0.006644s] [吞吐率：150.51req/s] [内存消耗：553.74kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'status' => '0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000742s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.001568s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.000702s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` WHERE  `status` = 0 LIMIT 0,10 [ RunTime:0.000475s ]
+---------------------------------------------------------------
+[ 2019-04-21T13:47:59+08:00 ] 0.0.0.0 GET localhost:8080/?status=0
+[运行时间：0.006996s] [吞吐率：142.94req/s] [内存消耗：553.74kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'status' => '0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000664s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.001352s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` WHERE  `status` = 0 LIMIT 0,10 [ RunTime:0.001122s ]
+---------------------------------------------------------------
+[ 2019-04-21T13:48:01+08:00 ] 0.0.0.0 GET localhost:8080/?status=
+[运行时间：0.006839s] [吞吐率：146.22req/s] [内存消耗：550.70kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'status' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001477s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.001280s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1 [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` LIMIT 0,10 [ RunTime:0.000477s ]
+---------------------------------------------------------------
+[ 2019-04-21T13:48:02+08:00 ] 0.0.0.0 GET localhost:8080/?status=
+[运行时间：0.004506s] [吞吐率：221.92req/s] [内存消耗：550.91kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'status' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000523s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` LIMIT 0,10 [ RunTime:0.000329s ]
+---------------------------------------------------------------
+[ 2019-04-21T13:48:54+08:00 ] 0.0.0.0 GET localhost:8080/?status=
+[运行时间：0.008110s] [吞吐率：123.30req/s] [内存消耗：550.91kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'status' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000606s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.001558s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1 [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` LIMIT 0,10 [ RunTime:0.000552s ]
+---------------------------------------------------------------
+[ 2019-04-21T13:49:10+08:00 ] 0.0.0.0 GET localhost:8080/?status=
+[运行时间：0.007920s] [吞吐率：126.26req/s] [内存消耗：551.38kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'status' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003100s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.001042s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` LIMIT 0,10 [ RunTime:0.000376s ]
+---------------------------------------------------------------
+[ 2019-04-21T13:49:20+08:00 ] 0.0.0.0 GET localhost:8080/?status=
+[运行时间：0.006666s] [吞吐率：150.02req/s] [内存消耗：551.04kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'status' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000985s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.001374s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1 [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` LIMIT 0,10 [ RunTime:0.000432s ]
+---------------------------------------------------------------
+[ 2019-04-21T13:49:22+08:00 ] 0.0.0.0 GET localhost:8080/?status=
+[运行时间：0.005848s] [吞吐率：171.00req/s] [内存消耗：551.04kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'status' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000603s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.001008s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1 [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` LIMIT 0,10 [ RunTime:0.000360s ]
+---------------------------------------------------------------
+[ 2019-04-21T13:49:40+08:00 ] 0.0.0.0 GET localhost:8080/?status=
+[运行时间：0.013169s] [吞吐率：75.94req/s] [内存消耗：565.84kb] [文件加载：59]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'status' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001464s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.002515s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1 [ RunTime:0.001950s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` LIMIT 0,10 [ RunTime:0.000685s ]
+---------------------------------------------------------------
+[ 2019-04-21T13:49:42+08:00 ] 0.0.0.0 GET localhost:8080/?status=&keyword=ThinkPHP
+[运行时间：0.007953s] [吞吐率：125.74req/s] [内存消耗：556.90kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'status' => '',
+  'keyword' => 'ThinkPHP',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000852s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.001108s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` WHERE  ( `title` LIKE '%ThinkPHP%' OR `author` LIKE '%ThinkPHP%' OR `publisher` LIKE '%ThinkPHP%' ) LIMIT 1 [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` WHERE  ( `title` LIKE '%ThinkPHP%' OR `author` LIKE '%ThinkPHP%' OR `publisher` LIKE '%ThinkPHP%' ) LIMIT 0,10 [ RunTime:0.000821s ]
+---------------------------------------------------------------
+[ 2019-04-21T13:49:44+08:00 ] 0.0.0.0 GET localhost:8080/?status=&keyword=ThinkPHP1
+[运行时间：0.006183s] [吞吐率：161.74req/s] [内存消耗：553.65kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=&keyword=ThinkPHP',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'status' => '',
+  'keyword' => 'ThinkPHP1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000589s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.001408s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` WHERE  ( `title` LIKE '%ThinkPHP1%' OR `author` LIKE '%ThinkPHP1%' OR `publisher` LIKE '%ThinkPHP1%' ) LIMIT 1 [ RunTime:0.000548s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` WHERE  ( `title` LIKE '%ThinkPHP1%' OR `author` LIKE '%ThinkPHP1%' OR `publisher` LIKE '%ThinkPHP1%' ) LIMIT 0,10 [ RunTime:0.000410s ]
+---------------------------------------------------------------
+[ 2019-04-21T13:49:47+08:00 ] 0.0.0.0 GET localhost:8080/?status=&keyword=
+[运行时间：0.005464s] [吞吐率：183.01req/s] [内存消耗：551.11kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=&keyword=ThinkPHP1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'status' => '',
+  'keyword' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000632s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.000693s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` LIMIT 0,10 [ RunTime:0.000793s ]
+---------------------------------------------------------------
+[ 2019-04-21T13:49:52+08:00 ] 0.0.0.0 GET localhost:8080/index/book/edit/id/6
+[运行时间：0.004813s] [吞吐率：207.76req/s] [内存消耗：278.49kb] [文件加载：44]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=&keyword=',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-21T14:46:40+08:00 ] 0.0.0.0 GET localhost:8080/index/book/edit/id/6
+[运行时间：0.028642s] [吞吐率：34.91req/s] [内存消耗：562.94kb] [文件加载：55]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=&keyword=',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Book->edit[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Book.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/book/edit.html [ array (
+  0 => 'book',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001787s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.001866s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` WHERE  `book_id` = 6 LIMIT 1 [ RunTime:0.000676s ]
+---------------------------------------------------------------
+[ 2019-04-21T14:46:56+08:00 ] 0.0.0.0 GET localhost:8080/index/book/edit/id/6
+[运行时间：0.010573s] [吞吐率：94.58req/s] [内存消耗：562.59kb] [文件加载：55]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=&keyword=',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Book->edit[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Book.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/book/edit.html [ array (
+  0 => 'book',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001117s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.001708s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` WHERE  `book_id` = 6 LIMIT 1 [ RunTime:0.000621s ]
+---------------------------------------------------------------
+[ 2019-04-21T14:48:54+08:00 ] 0.0.0.0 GET localhost:8080/index/book/edit/id/6
+[运行时间：0.011133s] [吞吐率：89.82req/s] [内存消耗：590.46kb] [文件加载：59]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=&keyword=',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Book->edit[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Book.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/book/edit.html [ array (
+  0 => 'book',
+) ]
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'book',
+  1 => 'code',
+  2 => 'msg',
+  3 => 'data',
+  4 => 'url',
+  5 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000484s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.000756s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` WHERE  `book_id` = 6 LIMIT 1 [ RunTime:0.000405s ]
+---------------------------------------------------------------
+[ 2019-04-21T14:48:57+08:00 ] 0.0.0.0 GET localhost:8080/?status=&keyword=
+[运行时间：0.005558s] [吞吐率：179.93req/s] [内存消耗：551.11kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=&keyword=ThinkPHP1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'status' => '',
+  'keyword' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000447s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1 [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` LIMIT 0,10 [ RunTime:0.000342s ]
+---------------------------------------------------------------
+[ 2019-04-21T14:49:18+08:00 ] 0.0.0.0 GET localhost:8080/?status=&keyword=
+[运行时间：0.007567s] [吞吐率：132.15req/s] [内存消耗：551.44kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=&keyword=ThinkPHP1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'status' => '',
+  'keyword' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000643s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.002913s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1 [ RunTime:0.000477s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` LIMIT 0,10 [ RunTime:0.000455s ]
+---------------------------------------------------------------
+[ 2019-04-21T14:49:20+08:00 ] 0.0.0.0 GET localhost:8080/index/book/edit/id/6
+[运行时间：0.009203s] [吞吐率：108.66req/s] [内存消耗：584.34kb] [文件加载：59]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=&keyword=',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Book->edit[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Book.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/book/edit.html [ array (
+  0 => 'book',
+) ]
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'book',
+  1 => 'code',
+  2 => 'msg',
+  3 => 'data',
+  4 => 'url',
+  5 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000723s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.001150s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` WHERE  `book_id` = 6 LIMIT 1 [ RunTime:0.000628s ]
+---------------------------------------------------------------
+[ 2019-04-21T14:49:23+08:00 ] 0.0.0.0 GET localhost:8080/?status=&keyword=
+[运行时间：0.019850s] [吞吐率：50.38req/s] [内存消耗：551.11kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=&keyword=ThinkPHP1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'status' => '',
+  'keyword' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001775s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.004783s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1 [ RunTime:0.000723s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` LIMIT 0,10 [ RunTime:0.001606s ]
+---------------------------------------------------------------
+[ 2019-04-21T14:49:30+08:00 ] 0.0.0.0 GET localhost:8080/?status=&keyword=
+[运行时间：0.006929s] [吞吐率：144.32req/s] [内存消耗：551.44kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=&keyword=ThinkPHP1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'status' => '',
+  'keyword' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000649s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.001012s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1 [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` LIMIT 0,10 [ RunTime:0.000427s ]
+---------------------------------------------------------------
+[ 2019-04-21T15:02:35+08:00 ] 0.0.0.0 GET localhost:8080/?status=&keyword=
+[运行时间：0.016154s] [吞吐率：61.90req/s] [内存消耗：551.44kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=&keyword=ThinkPHP1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'status' => '',
+  'keyword' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001201s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.001812s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` LIMIT 0,10 [ RunTime:0.000364s ]
+---------------------------------------------------------------
+[ 2019-04-21T15:03:37+08:00 ] 0.0.0.0 GET localhost:8080/index/book/edit/id/6
+[运行时间：0.010516s] [吞吐率：95.09req/s] [内存消耗：584.02kb] [文件加载：59]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=&keyword=',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Book->edit[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Book.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/book/edit.html [ array (
+  0 => 'book',
+) ]
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'book',
+  1 => 'code',
+  2 => 'msg',
+  3 => 'data',
+  4 => 'url',
+  5 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000654s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.001276s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` WHERE  `book_id` = 6 LIMIT 1 [ RunTime:0.000916s ]
+---------------------------------------------------------------
+[ 2019-04-21T15:03:39+08:00 ] 0.0.0.0 GET localhost:8080/?status=&keyword=
+[运行时间：0.008406s] [吞吐率：118.96req/s] [内存消耗：551.11kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=&keyword=ThinkPHP1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'status' => '',
+  'keyword' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001268s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.001291s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1 [ RunTime:0.000455s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` LIMIT 0,10 [ RunTime:0.000421s ]
+---------------------------------------------------------------
+[ 2019-04-21T15:08:39+08:00 ] 0.0.0.0 GET localhost:8080/?status=&keyword=
+[运行时间：0.007296s] [吞吐率：137.06req/s] [内存消耗：551.44kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=&keyword=ThinkPHP1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'status' => '',
+  'keyword' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000549s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.000747s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` LIMIT 0,10 [ RunTime:0.000314s ]
+---------------------------------------------------------------
+[ 2019-04-21T15:08:41+08:00 ] 0.0.0.0 GET localhost:8080/index/book/edit/id/6
+[运行时间：0.009942s] [吞吐率：100.58req/s] [内存消耗：557.92kb] [文件加载：55]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=&keyword=',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Book->edit[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Book.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/book/edit.html [ array (
+  0 => 'book',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000540s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.001059s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` WHERE  `book_id` = 6 LIMIT 1 [ RunTime:0.000689s ]
+---------------------------------------------------------------
+[ 2019-04-21T15:09:19+08:00 ] 0.0.0.0 POST localhost:8080/index/book/do_update/id/6
+[运行时间：0.005930s] [吞吐率：168.64req/s] [内存消耗：278.28kb] [文件加载：44]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'do_update',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'content-length' => '151',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:8080',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/index/book/edit/id/6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'isbn' => '1',
+  'title' => 'ThinkPHP实战',
+  'author' => '夏磊',
+  'publisher' => '清华大学出版社',
+  'price' => '49.90',
+  'id' => '6',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-21T15:09:20+08:00 ] 0.0.0.0 GET localhost:8080/index/book/edit/id/6
+[运行时间：0.005943s] [吞吐率：168.27req/s] [内存消耗：481.27kb] [文件加载：53]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=&keyword=',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Book->edit[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Book.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/book/edit.html [ array (
+  0 => 'book',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000668s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.001031s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` WHERE  `book_id` = 6 LIMIT 1 [ RunTime:0.000601s ]
+---------------------------------------------------------------
+[ 2019-04-21T15:09:23+08:00 ] 0.0.0.0 POST localhost:8080/index/book/do_update/id/6
+[运行时间：0.001937s] [吞吐率：516.22req/s] [内存消耗：278.28kb] [文件加载：44]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'do_update',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'content-length' => '151',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:8080',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/index/book/edit/id/6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'isbn' => '1',
+  'title' => 'ThinkPHP实战',
+  'author' => '夏磊',
+  'publisher' => '清华大学出版社',
+  'price' => '49.90',
+  'id' => '6',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-21T15:09:43+08:00 ] 0.0.0.0 GET localhost:8080/index/book/edit/id/6
+[运行时间：0.008150s] [吞吐率：122.70req/s] [内存消耗：557.92kb] [文件加载：55]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=&keyword=',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Book->edit[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Book.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/book/edit.html [ array (
+  0 => 'book',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000548s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.003166s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` WHERE  `book_id` = 6 LIMIT 1 [ RunTime:0.000706s ]
+---------------------------------------------------------------
+[ 2019-04-21T15:09:43+08:00 ] 0.0.0.0 GET localhost:8080/index/book/edit/id/6
+[运行时间：0.006414s] [吞吐率：155.91req/s] [内存消耗：481.35kb] [文件加载：53]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=&keyword=',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Book->edit[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Book.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/book/edit.html [ array (
+  0 => 'book',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000916s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.001038s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` WHERE  `book_id` = 6 LIMIT 1 [ RunTime:0.000574s ]
+---------------------------------------------------------------
+[ 2019-04-21T15:09:45+08:00 ] 0.0.0.0 POST localhost:8080/index/book/do_edit/id/6
+[运行时间：0.004084s] [吞吐率：244.87req/s] [内存消耗：294.33kb] [文件加载：42]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'do_edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'content-length' => '151',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:8080',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/index/book/edit/id/6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'isbn' => '1',
+  'title' => 'ThinkPHP实战',
+  'author' => '夏磊',
+  'publisher' => '清华大学出版社',
+  'price' => '49.90',
+  'id' => '6',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Book->do_edit[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Book.php ]
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-21T15:09:46+08:00 ] 0.0.0.0 GET localhost:8080/index/book/edit/id/6
+[运行时间：0.004745s] [吞吐率：210.75req/s] [内存消耗：481.27kb] [文件加载：53]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=&keyword=',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Book->edit[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Book.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/book/edit.html [ array (
+  0 => 'book',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000715s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.000754s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` WHERE  `book_id` = 6 LIMIT 1 [ RunTime:0.000460s ]
+---------------------------------------------------------------
+[ 2019-04-21T15:09:58+08:00 ] 0.0.0.0 GET localhost:8080/index/book/edit/id/6
+[运行时间：0.005608s] [吞吐率：178.32req/s] [内存消耗：490.70kb] [文件加载：53]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?status=&keyword=',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Book->edit[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Book.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/book/edit.html [ array (
+  0 => 'book',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000565s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.001268s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` WHERE  `book_id` = 6 LIMIT 1 [ RunTime:0.000542s ]
+---------------------------------------------------------------
+[ 2019-04-21T15:09:59+08:00 ] 0.0.0.0 POST localhost:8080/index/book/do_edit/id/6
+[运行时间：0.019433s] [吞吐率：51.46req/s] [内存消耗：543.19kb] [文件加载：55]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'do_edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'content-length' => '151',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:8080',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/index/book/edit/id/6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'isbn' => '1',
+  'title' => 'ThinkPHP实战',
+  'author' => '夏磊',
+  'publisher' => '清华大学出版社',
+  'price' => '49.90',
+  'id' => '6',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Book->do_edit[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Book.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000613s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.000890s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` WHERE  `book_id` = 6 LIMIT 1 [ RunTime:0.000499s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_admin_log` [ RunTime:0.000857s ]
+[ sql ] [ SQL ] INSERT INTO `book_admin_log` (`admin_id` , `action` , `msg` , `params` , `created_ip` , `created_at`) VALUES (2 , 4 , '修改书籍' , '{\"book_id\":\"6\"}' , '0.0.0.0' , 1555830599) [ RunTime:0.001342s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book_log` [ RunTime:0.000888s ]
+[ sql ] [ SQL ] INSERT INTO `book_book_log` (`book_id` , `action` , `msg` , `params` , `created_ip` , `created_at`) VALUES (6 , 4 , '修改' , '{\"book_id\":6,\"isbn\":\"1\",\"title\":\"ThinkPHP实战\",\"author\":\"夏磊\",\"publisher\":\"清华大学出版社\",\"storage_at\":1555825012,\"created_at\":1555825012,\"updated_at\":1555825012,\"status\":0,\"price\":\"49.90\"}' , '0.0.0.0' , 1555830599) [ RunTime:0.001030s ]
+---------------------------------------------------------------
+[ 2019-04-21T15:10:00+08:00 ] 0.0.0.0 GET localhost:8080/
+[运行时间：0.005612s] [吞吐率：178.19req/s] [内存消耗：550.37kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/index/book/do_edit/id/6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000921s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.001073s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` LIMIT 0,10 [ RunTime:0.000500s ]
+---------------------------------------------------------------
+[ 2019-04-21T15:10:05+08:00 ] 0.0.0.0 GET localhost:8080/index/book/edit/id/6
+[运行时间：0.004644s] [吞吐率：215.32req/s] [内存消耗：480.29kb] [文件加载：53]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Book->edit[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Book.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/book/edit.html [ array (
+  0 => 'book',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000800s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.000737s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` WHERE  `book_id` = 6 LIMIT 1 [ RunTime:0.000424s ]
+---------------------------------------------------------------
+[ 2019-04-21T15:10:07+08:00 ] 0.0.0.0 POST localhost:8080/index/book/do_edit/id/6
+[运行时间：0.009434s] [吞吐率：106.00req/s] [内存消耗：547.63kb] [文件加载：58]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'do_edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'content-length' => '152',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:8080',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/index/book/edit/id/6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'isbn' => '1',
+  'title' => 'ThinkPHP实战1',
+  'author' => '夏磊',
+  'publisher' => '清华大学出版社',
+  'price' => '49.90',
+  'id' => '6',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Book->do_edit[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Book.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000804s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.000910s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` WHERE  `book_id` = 6 LIMIT 1 [ RunTime:0.000611s ]
+[ sql ] [ SQL ] UPDATE `book_book`  SET `title`='ThinkPHP实战1',`updated_at`=1555830607  WHERE  `book_id` = 6 [ RunTime:0.000712s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_admin_log` [ RunTime:0.000693s ]
+[ sql ] [ SQL ] INSERT INTO `book_admin_log` (`admin_id` , `action` , `msg` , `params` , `created_ip` , `created_at`) VALUES (2 , 4 , '修改书籍' , '{\"book_id\":\"6\"}' , '0.0.0.0' , 1555830607) [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book_log` [ RunTime:0.001251s ]
+[ sql ] [ SQL ] INSERT INTO `book_book_log` (`book_id` , `action` , `msg` , `params` , `created_ip` , `created_at`) VALUES (6 , 4 , '修改' , '{\"book_id\":6,\"isbn\":\"1\",\"title\":\"ThinkPHP实战1\",\"author\":\"夏磊\",\"publisher\":\"清华大学出版社\",\"storage_at\":1555825012,\"created_at\":1555825012,\"updated_at\":1555830607,\"status\":0,\"price\":\"49.90\"}' , '0.0.0.0' , 1555830607) [ RunTime:0.000312s ]
+---------------------------------------------------------------
+[ 2019-04-21T15:10:07+08:00 ] 0.0.0.0 GET localhost:8080/
+[运行时间：0.005965s] [吞吐率：167.64req/s] [内存消耗：550.45kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/index/book/do_edit/id/6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000600s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.000999s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1 [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` LIMIT 0,10 [ RunTime:0.000548s ]
+---------------------------------------------------------------
+[ 2019-04-21T15:10:09+08:00 ] 0.0.0.0 GET localhost:8080/index/book/edit/id/6
+[运行时间：0.005354s] [吞吐率：186.78req/s] [内存消耗：480.37kb] [文件加载：53]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Book->edit[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Book.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/book/edit.html [ array (
+  0 => 'book',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000553s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.000776s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` WHERE  `book_id` = 6 LIMIT 1 [ RunTime:0.000749s ]
+---------------------------------------------------------------
+[ 2019-04-21T15:10:11+08:00 ] 0.0.0.0 POST localhost:8080/index/book/do_edit/id/6
+[运行时间：0.008826s] [吞吐率：113.30req/s] [内存消耗：547.70kb] [文件加载：58]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'do_edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'content-length' => '151',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:8080',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/index/book/edit/id/6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'isbn' => '1',
+  'title' => 'ThinkPHP实战',
+  'author' => '夏磊',
+  'publisher' => '清华大学出版社',
+  'price' => '49.90',
+  'id' => '6',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Book->do_edit[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Book.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000802s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` WHERE  `book_id` = 6 LIMIT 1 [ RunTime:0.000778s ]
+[ sql ] [ SQL ] UPDATE `book_book`  SET `title`='ThinkPHP实战',`updated_at`=1555830611  WHERE  `book_id` = 6 [ RunTime:0.000505s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_admin_log` [ RunTime:0.000572s ]
+[ sql ] [ SQL ] INSERT INTO `book_admin_log` (`admin_id` , `action` , `msg` , `params` , `created_ip` , `created_at`) VALUES (2 , 4 , '修改书籍' , '{\"book_id\":\"6\"}' , '0.0.0.0' , 1555830611) [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book_log` [ RunTime:0.000565s ]
+[ sql ] [ SQL ] INSERT INTO `book_book_log` (`book_id` , `action` , `msg` , `params` , `created_ip` , `created_at`) VALUES (6 , 4 , '修改' , '{\"book_id\":6,\"isbn\":\"1\",\"title\":\"ThinkPHP实战\",\"author\":\"夏磊\",\"publisher\":\"清华大学出版社\",\"storage_at\":1555825012,\"created_at\":1555825012,\"updated_at\":1555830611,\"status\":0,\"price\":\"49.90\"}' , '0.0.0.0' , 1555830611) [ RunTime:0.000341s ]
+---------------------------------------------------------------
+[ 2019-04-21T15:10:12+08:00 ] 0.0.0.0 GET localhost:8080/
+[运行时间：0.005205s] [吞吐率：192.12req/s] [内存消耗：550.37kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/index/book/do_edit/id/6',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000551s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.001015s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1 [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` LIMIT 0,10 [ RunTime:0.000435s ]
+---------------------------------------------------------------
+[ 2019-04-21T15:11:37+08:00 ] 0.0.0.0 GET localhost:8080/index/book/add
+[运行时间：0.004887s] [吞吐率：204.62req/s] [内存消耗：308.31kb] [文件加载：44]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Book->add[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Book.php ]
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/book/add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-21T15:14:43+08:00 ] 0.0.0.0 GET localhost:8080/index/book/add
+[运行时间：0.003617s] [吞吐率：276.47req/s] [内存消耗：308.39kb] [文件加载：44]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Book->add[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Book.php ]
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/book/add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-21T15:14:57+08:00 ] 0.0.0.0 POST localhost:8080/index/book/do_add
+[运行时间：0.002060s] [吞吐率：485.40req/s] [内存消耗：293.54kb] [文件加载：42]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'do_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'content-length' => '75',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:8080',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/index/book/add',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'isbn' => 'aaa',
+  'title' => 'aaa',
+  'author' => 'aaa',
+  'publisher' => 'aaa',
+  'storage_at' => '2019-04-21',
+  'price' => 'aaa',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Book->do_add[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Book.php ]
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-21T15:14:58+08:00 ] 0.0.0.0 GET localhost:8080/index/book/add
+[运行时间：0.002460s] [吞吐率：406.50req/s] [内存消耗：292.32kb] [文件加载：42]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Book->add[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Book.php ]
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/book/add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-21T15:15:19+08:00 ] 0.0.0.0 POST localhost:8080/index/book/do_add
+[运行时间：0.009077s] [吞吐率：110.17req/s] [内存消耗：494.35kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'do_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'content-length' => '81',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:8080',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/index/book/add',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'isbn' => '111111',
+  'title' => 'aaa',
+  'author' => 'aaa',
+  'publisher' => 'aaa',
+  'storage_at' => '2019-04-21',
+  'price' => '111111',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Book->do_add[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Book.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000469s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.000905s ]
+[ error ] [10501]SQLSTATE[01000]: Warning: 1265 Data truncated for column 'storage_at' at row 1[/Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/library/think/db/Connection.php:453]
+---------------------------------------------------------------
+[ 2019-04-21T15:17:33+08:00 ] 0.0.0.0 POST localhost:8080/index/book/do_add
+[运行时间：0.008209s] [吞吐率：121.82req/s] [内存消耗：463.10kb] [文件加载：55]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'do_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'content-length' => '81',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'origin' => 'http://localhost:8080',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/index/book/add',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'isbn' => '111111',
+  'title' => 'aaa',
+  'author' => 'aaa',
+  'publisher' => 'aaa',
+  'storage_at' => '2019-04-21',
+  'price' => '111111',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Book->do_add[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Book.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000504s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.000825s ]
+[ error ] [0]数据表字段不存在:[storage_at][/Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/library/think/db/Builder.php:115]
+---------------------------------------------------------------
+[ 2019-04-21T15:17:34+08:00 ] 0.0.0.0 GET localhost:8080/index/book/add
+[运行时间：0.005527s] [吞吐率：180.93req/s] [内存消耗：303.81kb] [文件加载：44]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Book->add[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Book.php ]
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/book/add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-21T15:17:34+08:00 ] 0.0.0.0 GET localhost:8080/index/book/add
+[运行时间：0.002117s] [吞吐率：472.38req/s] [内存消耗：292.40kb] [文件加载：42]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Book->add[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Book.php ]
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/book/add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-21T15:17:43+08:00 ] 0.0.0.0 POST localhost:8080/index/book/do_add
+[运行时间：0.016412s] [吞吐率：60.93req/s] [内存消耗：476.34kb] [文件加载：55]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'book',
+    2 => 'do_add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'content-length' => '53',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost:8080',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/index/book/add',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'isbn' => '111',
+  'title' => 'aaa',
+  'author' => 'aaa',
+  'publisher' => 'aaa',
+  'price' => '111',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Book->do_add[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Book.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001006s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.000731s ]
+[ sql ] [ SQL ] INSERT INTO `book_book` (`isbn` , `title` , `author` , `publisher` , `price` , `created_at` , `updated_at`) VALUES (111 , 'aaa' , 'aaa' , 'aaa' , 111 , 1555831063 , 1555831063) [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_admin_log` [ RunTime:0.000789s ]
+[ sql ] [ SQL ] INSERT INTO `book_admin_log` (`admin_id` , `action` , `msg` , `params` , `created_ip` , `created_at`) VALUES (2 , 3 , '添加书籍:aaa' , '{\"book_id\":\"7\"}' , '0.0.0.0' , 1555831063) [ RunTime:0.000405s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book_log` [ RunTime:0.006950s ]
+[ sql ] [ SQL ] INSERT INTO `book_book_log` (`book_id` , `action` , `msg` , `params` , `created_ip` , `created_at`) VALUES (7 , 1 , '入库' , '{\"admin_id\":2}' , '0.0.0.0' , 1555831063) [ RunTime:0.000237s ]
+---------------------------------------------------------------
+[ 2019-04-21T15:17:44+08:00 ] 0.0.0.0 GET localhost:8080/
+[运行时间：0.019547s] [吞吐率：51.16req/s] [内存消耗：538.87kb] [文件加载：60]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/index/book/do_add',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000544s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.001033s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` LIMIT 0,10 [ RunTime:0.000549s ]
+[ error ] [0]类的属性不存在:app\common\model\Book->storage_at[/Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/library/think/Model.php:626]
+---------------------------------------------------------------
+[ 2019-04-21T15:18:04+08:00 ] 0.0.0.0 GET localhost:8080/
+[运行时间：0.007300s] [吞吐率：136.99req/s] [内存消耗：570.00kb] [文件加载：59]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/index/book/do_add',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000486s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.000722s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1 [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` LIMIT 0,10 [ RunTime:0.000521s ]
+---------------------------------------------------------------
+[ 2019-04-21T15:18:26+08:00 ] 0.0.0.0 GET localhost:8080/
+[运行时间：0.008979s] [吞吐率：111.37req/s] [内存消耗：566.98kb] [文件加载：59]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/index/book/do_add',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000563s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.000879s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` LIMIT 0,1 [ RunTime:0.000424s ]
+---------------------------------------------------------------
+[ 2019-04-21T15:18:27+08:00 ] 0.0.0.0 GET localhost:8080/?page=2
+[运行时间：0.006807s] [吞吐率：146.91req/s] [内存消耗：554.00kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000678s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.001204s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1 [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` LIMIT 1,1 [ RunTime:0.000750s ]
+---------------------------------------------------------------
+[ 2019-04-21T15:18:28+08:00 ] 0.0.0.0 GET localhost:8080/?page=1
+[运行时间：0.006322s] [吞吐率：158.18req/s] [内存消耗：551.42kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?page=2',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000815s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.001114s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1 [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` LIMIT 0,1 [ RunTime:0.000428s ]
+---------------------------------------------------------------
+[ 2019-04-21T15:18:30+08:00 ] 0.0.0.0 GET localhost:8080/?page=1
+[运行时间：0.005495s] [吞吐率：181.99req/s] [内存消耗：550.19kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?page=2',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000542s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.000859s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1 [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` LIMIT 0,1 [ RunTime:0.000336s ]
+---------------------------------------------------------------
+[ 2019-04-21T15:18:33+08:00 ] 0.0.0.0 GET localhost:8080/?page=1
+[运行时间：0.008770s] [吞吐率：114.03req/s] [内存消耗：552.63kb] [文件加载：57]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?page=2',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/application/index/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/public/../application/index/view/index/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000762s ] mysql:host=127.0.0.1;port=3306;dbname=library-management;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `book_book` [ RunTime:0.001578s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `book_book` LIMIT 1 [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SELECT * FROM `book_book` LIMIT 0,10 [ RunTime:0.000551s ]
+---------------------------------------------------------------
+[ 2019-04-21T15:18:55+08:00 ] 0.0.0.0 GET localhost:8080/index/user/index
+[运行时间：0.002591s] [吞吐率：385.93req/s] [内存消耗：146.80kb] [文件加载：32]
+[ info ] [ LANG ] /Users/xialeistudio/PhpStormProjects/think5-inaction/library-management/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8080',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://localhost:8080/?page=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7',
+  'cookie' => 'PHPSESSID=l6c8hqgnpqtpst6ecmgti23qa7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

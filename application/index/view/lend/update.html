@@ -1,0 +1,55 @@
+<layout name="layout"/>
+<ol class="breadcrumb">
+    <li><a href="{:url('/')}">首页</a></li>
+    <li><a href="{:url('user/index')}">借书管理</a></li>
+    <li class="active">编辑出借书籍</li>
+</ol>
+<div class="panel-default panel">
+    <div class="panel-body">
+        <form action="{:url('do_update',['user_id'=>$lend['user_id'],'book_id'=>$lend['book_id']])}" class="form-horizontal" method="post">
+            <div class="form-group">
+                <label for="book_id" class="control-label col-md-1">书籍</label>
+                <div class="col-md-4">
+                    <select id="book_id" name="book_id" required class="form-control" readonly>
+                        <volist name="books" id="book">
+                            <option value="{$book.book_id}" <eq name="lend.book_id" value="$book.book_id">selected</eq>>[{$book.book_id}]{$book.title}</option>
+                        </volist>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="user_id" class="control-label col-md-1">用户</label>
+                <div class="col-md-4">
+                    <select id="user_id" name="user_id" required class="form-control" readonly>
+                        <volist name="users" id="user">
+                            <option value="{$user.user_id}" <eq name="user.user_id" value="$lend.user_id">selected</eq>>[{$user.phone}]{$user.realname}</option>
+                        </volist>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="lending_date" class="control-label col-md-1">借出日期</label>
+                <div class="col-md-4">
+                    <p id="lending_date" class="form-control">{$lend.lending_date}</p>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="should_return_date" class="control-label col-md-1">应还日期</label>
+                <div class="col-md-4">
+                    <p id="should_return_date" class="form-control">{$lend.should_return_date}</p>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="remark" class="control-label col-md-1">备注</label>
+                <div class="col-md-4">
+                    <textarea name="remark" id="remark" class="form-control" rows="10">{$lend.remark}</textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-4 col-lg-offset-1">
+                    <button type="submit" class="btn btn-primary">保存</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,62 @@
+<layout name="layout" />
+<ol class="breadcrumb">
+    <li><a href="{:url('/')}">首页</a></li>
+    <li class="active">书籍管理</li>
+</ol>
+<div class="clearfix">
+    <form action="" class="form-inline pull-left" method="get">
+        <label for="status" class="control-label">状态</label>
+        <select name="status" id="status" class="form-control">
+            <option value="" <eq name="Think.get.status" value="">selected</eq>>全部</option>
+            <option value="0" <eq name="Think.get.status" value="0">selected</eq>>正常</option>
+            <option value="1" <eq name="Think.get.status" value="1">selected</eq>>已出借</option>
+        </select>
+        <input type="search" class="form-control" placeholder="书名搜索" id="keyword" name="keyword" value="{$Think.get.keyword}">
+        <button class="btn btn-default" type="submit">筛选</button>
+    </form>
+    <a href="{:url('book/add')}" class="btn btn-primary pull-right">添加书籍</a>
+</div>
+<hr>
+<empty name="list">
+    <p>暂时没有书籍</p>
+    <else/>
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+            <tr>
+                <td>ID</td>
+                <td>ISBN</td>
+                <td>标题</td>
+                <td>作者</td>
+                <td>出版社</td>
+                <td>价格</td>
+                <td>状态</td>
+                <td>添加时间</td>
+                <td>最后更新时间</td>
+                <td>操作</td>
+            </tr>
+            <volist name="list" id="item">
+                <tr>
+                    <td>{$item.book_id}</td>
+                    <td>{$item.isbn}</td>
+                    <td>{$item.title}</td>
+                    <td>{$item.author}</td>
+                    <td>{$item.publisher}</td>
+                    <td>￥{$item.price}</td>
+                    <td>
+                        <eq name="item.status" value="0">
+                            <span class="label label-success">正常</span>
+                            <else/>
+                            <span class="label label-warning">已借出</span>
+                        </eq>
+                    </td>
+                    <td>{$item.created_at}</td>
+                    <td>{$item.updated_at}</td>
+                    <td>
+                        <a href="{:url('book/edit',['id'=>$item['book_id']])}">编辑</a>
+                    </td>
+                </tr>
+            </volist>
+        </table>
+    </div>
+    {$list->render()}
+</empty>
