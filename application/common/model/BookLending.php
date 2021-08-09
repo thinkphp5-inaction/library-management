@@ -26,11 +26,11 @@ class BookLending extends BaseModel
 
     public function book()
     {
-        return $this->belongsTo(Book::class, 'book_id', 'book_id');
+        return $this->belongsTo(Book::class, 'book_id', 'book_id')->setEagerlyType(0);
     }
 
     public function user()
     {
-        return $this->belongsTo(User::class, 'user_id', 'user_id');
+        return $this->belongsTo(User::class, 'user_id', 'user_id')->setEagerlyType(0);
     }
 }

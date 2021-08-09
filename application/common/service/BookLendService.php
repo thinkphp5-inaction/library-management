@@ -71,12 +71,12 @@ class BookLendService extends BaseObject
             ->listBySearch($size, [], null, null, [
                 'book' => function (Query $query) use ($keyword) {
                     if (!empty($keyword)) {
-                        $query->whereLike('isbn|title|author|publisher', $keyword);
+                        $query->whereLike('isbn|title|author|publisher', $keyword, 'OR');
                     }
                 },
                 'user' => function (Query $query) use ($keyword) {
                     if (!empty($keyword)) {
-                        $query->whereLike('realname|phone', $keyword);
+                        $query->whereLike('realname|phone', $keyword, 'OR');
                     }
                 }
             ], ['created_at' => 'desc']);

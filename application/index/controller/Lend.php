@@ -9,6 +9,7 @@ use app\common\model\BookLending;
 use app\common\service\BookLendService;
 use app\common\service\BookService;
 use app\common\service\UserService;
+use think\Db;
 use think\Request;
 
 /**
